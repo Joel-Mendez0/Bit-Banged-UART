@@ -89,6 +89,11 @@ idf.py flash
 
 This bit-banging UART implementation can be used in scenarios where the hardware UART peripherals are occupied, or for educational purposes to understand the fundamentals of UART communication.
 
+## PulseView
+
+![UARTPulseView](https://github.com/user-attachments/assets/9b5d7b61-a8b3-4c7d-b297-979428019a89)
+
+
 ## License
 
 This project is licensed under the MIT License.
