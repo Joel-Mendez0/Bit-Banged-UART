@@ -1,0 +1,16 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d801f: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d83e4: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40083059: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x400d56cc: UARTTransmit at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/UART/main/UART.c:234 (discriminator 1)
+0x400d57b9: InitUART at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/UART/main/UART.c:138
+0x400d55c1: app_main at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/UART/main/main.c:18
+0x400e4ddc: main_task at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x400861cd: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m
