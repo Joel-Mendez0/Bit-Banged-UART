@@ -9,7 +9,6 @@
 
 static const char *TAG = "UART";
 
-//esp_timer_handle_t clk_timer;
 gptimer_handle_t clk_timer; 
 
 // Static variables to hold the state of the protocol
@@ -112,7 +111,7 @@ void InitUART(const UARTcfg* cfg) {
 	};
 	
 	gptimer_set_alarm_action(clk_timer, &alarm_config);
-    gptimer_register_event_callbacks(clk_timer, &cbs, NULL);
+    	gptimer_register_event_callbacks(clk_timer, &cbs, NULL);
 	gptimer_enable(clk_timer);
 	
 	
